@@ -38,13 +38,21 @@ namespace LotoClassNS
             get => _nums; 
             set => _nums = value; 
         }
-
+        /// <value>
+        /// devuelve maximo
+        /// </value>
         public static int MAX_NUMEROS => mAX_NUMEROS;
-
+        /// <value>
+        /// Define menor
+        /// </value>
         public static int NUMERO_MENOR => nUMERO_MENOR;
-
+        /// <value>
+        /// Define maximo numero
+        /// </value>
         public static int NUMERO_MAYOR => nUMERO_MAYOR;
-
+        /// <value>
+        /// Define el bool ok
+        /// </value>
         public bool Ok { get => ok; set => ok = value; }
 
 
