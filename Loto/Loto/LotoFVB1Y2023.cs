@@ -9,7 +9,7 @@ namespace LotoClassNS
     public class loto
     {
         private const int Maximo = 6;
-        private const int Minimo = 5;
+        private const int Minimo = 1;
         
         /// <summary>
         /// L constante define que el maximo de numeros a introducir seran 6

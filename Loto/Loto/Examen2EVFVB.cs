@@ -25,12 +25,12 @@ namespace ExamenLoto
         public Form1()
         {
             InitializeComponent();
-            combinacion[cero] = txtNumero1; ganadora[cero] = txtGanadora1;
-            combinacion[uno] = txtNumero2; ganadora[uno] = txtGanadora2;
-            combinacion[dos] = txtNumero3; ganadora[dos] = txtGanadora3;
-            combinacion[tres] = txtNumero4; ganadora[tres] = txtGanadora4;
-            combinacion[cuatro] = txtNumero5; ganadora[cuatro] = txtGanadora5;
-            combinacion[cinco] = txtNumero6; ganadora[cinco] = txtGanadora6;
+            combinacion[Cero] = txtNumero1; ganadora[Cero] = txtGanadora1;
+            combinacion[Uno] = txtNumero2; ganadora[Uno] = txtGanadora2;
+            combinacion[Dos] = txtNumero3; ganadora[Dos] = txtGanadora3;
+            combinacion[Tres] = txtNumero4; ganadora[Tres] = txtGanadora4;
+            combinacion[Cuatro] = txtNumero5; ganadora[Cuatro] = txtGanadora5;
+            combinacion[Cinco] = txtNumero6; ganadora[Cinco] = txtGanadora6;
             miGanadora = new loto(); // generamos la combinación ganadora
             for (int i = 0; i < 6; i++)
                 ganadora[i].Text = Convert.ToString(miGanadora.Nums[i]);
